@@ -3,3 +3,8 @@ matplotlib
 numpy
 wordcloud
 nltk
+transformers
+datasets
+scikit-learn
+torch
+ipywidgets
