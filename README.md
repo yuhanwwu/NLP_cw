@@ -10,6 +10,8 @@ HateBERT fine tuned for PCL binary classification, with weighted loss, keyword a
 | HateBERT + weighted loss + dropout | 0.5658 |
 | HateBERT + weighted loss + dropout + keyword (BestModel) | 0.5714 |
 
+All experimental runs including ablations (e.g. HateBERT without weighted loss, without keyword augmentation, without dropout) can be found in `hatebert_pcl.ipynb` in the root of the repository.
+
 ## Load pretrained model 
 `best_model.pt` is included in this repo vio Git LFS. Set `LOAD_MODEL = True` in the config cell (default), and run all cells.
 
