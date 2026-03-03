@@ -1,6 +1,8 @@
 ## BestModel
 HateBERT fine tuned for PCL binary classification, with weighted loss, keyword augmentation, and increased dropout. The code for this model is located in `BestModel/BestModel.ipynb`.
 
+`dev.txt` and `test.txt` predictions are located in the root of this repository.
+
 ## Results
 | Model | Dev F1 on PCL |
 |---|---|
